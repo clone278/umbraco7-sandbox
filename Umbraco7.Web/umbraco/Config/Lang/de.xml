@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="de" intName="German (DE)" localName="Deutsch (DE)" lcid="7" culture="de-DE">
   <creator>
     <name>The Umbraco community</name>
@@ -562,8 +562,7 @@ Wenn Sie sich für Runway entscheiden, können Sie optional Blöcke nutzen, die 
       Einen schönen Tag wünscht
       Ihr freundlicher Umbraco-Robot
     </key>
-    <key alias="mailBodyHtml">
-<![CDATA[<p>Hallo %0%</p>
+    <key alias="mailBodyHtml"><![CDATA[<p>Hallo %0%</p>
 		  <p>Dies ist eine automatisch E-Mail, welche Sie informiert, dass die Aufgabe <strong>'%1%'</strong> 
 		  an der Seite <a href="http://%4%/#/content/content/edit/%5%"><strong>'%2%'</strong></a>
 		  vom Benutzer <strong>'%3%'</strong> ausgeführt wurde.
@@ -589,8 +588,7 @@ Wenn Sie sich für Runway entscheiden, können Sie optional Blöcke nutzen, die 
 		  <p>Einen schönen Tag wünscht<br /><br />
 			  Ihr freundlicher Umbraco-Robot
 		  </p>
-]]>
-</key>
+]]></key>
     <key alias="mailSubject">[%0%] Benachrichtigung: %1% ausgeführt an Seite '%2%' </key>
     <key alias="notifications">Benachrichtigungen</key>
   </area>
@@ -700,6 +698,7 @@ Wenn Sie sich für Runway entscheiden, können Sie optional Blöcke nutzen, die 
     <key alias="help" version="7.0">Hilfe</key>
     <key alias="forms">Formulare</key>
     <key alias="analytics">Auswertungen</key>
+    <key alias="Spindoctor">Spindoctor</key>
   </area>
   <area alias="help">
     <key alias="goTo">go to</key>
